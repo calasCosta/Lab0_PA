@@ -1,5 +1,7 @@
 package pa;
 
+import java.util.Objects;
+
 public class Person {
 
     private int id;
@@ -47,4 +49,5 @@ public class Person {
     public int hashCode() {
         return Objects.hash(id, name);
     }
+
 }
